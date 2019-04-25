@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tp3"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3">
+				<Option output="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/tp3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tp3/fast">
+				<Option output="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/tp3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 tp3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/santi/Escritorio/Ingenieria/2019/1er\ cuat/Taller\ de\ programacion\ I/tps/tp3/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

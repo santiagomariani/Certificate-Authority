@@ -1,0 +1,3 @@
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles/tp3.dir
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles/edit_cache.dir

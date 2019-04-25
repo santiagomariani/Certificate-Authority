@@ -1,0 +1,126 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client.cpp
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.cpp
+ctime
+-
+iomanip
+-
+sstream
+-
+iostream
+-
+string
+-
+client_InfoCertificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h
+string
+-
+fstream
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+cstring
+-
+cstdlib
+-
+iostream
+-
+client_SktCli.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+cstdint
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.cpp
+common_Encriptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+cstdint
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.cpp
+string
+-
+iostream
+-
+common_InfoClave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+iostream
+-
+fstream
+-
+string
+-
+common_Clave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp
+sys/types.h
+-
+sys/socket.h
+-
+sys/un.h
+-
+unistd.h
+-
+errno.h
+-
+stdio.h
+-
+string.h
+-
+iostream
+-
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp
+errno.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+cstring
+-
+iostream
+-
+server_SktSv.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.h
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+

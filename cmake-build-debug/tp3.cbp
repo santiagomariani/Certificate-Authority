@@ -99,6 +99,12 @@
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h">
 			<Option target="tp3"/>
 		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h">
+			<Option target="tp3"/>
+		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.cpp">
 			<Option target="tp3"/>
 		</Unit>
@@ -130,6 +136,12 @@
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp">

@@ -204,6 +204,33 @@ client_SktCli.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_SktCli.cpp.s
 .PHONY : client_SktCli.cpp.s
 
+common_Certificado.o: common_Certificado.cpp.o
+
+.PHONY : common_Certificado.o
+
+# target to build an object file
+common_Certificado.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Certificado.cpp.o
+.PHONY : common_Certificado.cpp.o
+
+common_Certificado.i: common_Certificado.cpp.i
+
+.PHONY : common_Certificado.i
+
+# target to preprocess a source file
+common_Certificado.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Certificado.cpp.i
+.PHONY : common_Certificado.cpp.i
+
+common_Certificado.s: common_Certificado.cpp.s
+
+.PHONY : common_Certificado.s
+
+# target to generate assembly for a file
+common_Certificado.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Certificado.cpp.s
+.PHONY : common_Certificado.cpp.s
+
 common_Clave.o: common_Clave.cpp.o
 
 .PHONY : common_Clave.o
@@ -366,6 +393,33 @@ server.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server.cpp.s
 .PHONY : server.cpp.s
 
+server_Indice.o: server_Indice.cpp.o
+
+.PHONY : server_Indice.o
+
+# target to build an object file
+server_Indice.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Indice.cpp.o
+.PHONY : server_Indice.cpp.o
+
+server_Indice.i: server_Indice.cpp.i
+
+.PHONY : server_Indice.i
+
+# target to preprocess a source file
+server_Indice.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Indice.cpp.i
+.PHONY : server_Indice.cpp.i
+
+server_Indice.s: server_Indice.cpp.s
+
+.PHONY : server_Indice.s
+
+# target to generate assembly for a file
+server_Indice.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Indice.cpp.s
+.PHONY : server_Indice.cpp.s
+
 server_SktSv.o: server_SktSv.cpp.o
 
 .PHONY : server_SktSv.o
@@ -411,6 +465,9 @@ help:
 	@echo "... client_SktCli.o"
 	@echo "... client_SktCli.i"
 	@echo "... client_SktCli.s"
+	@echo "... common_Certificado.o"
+	@echo "... common_Certificado.i"
+	@echo "... common_Certificado.s"
 	@echo "... common_Clave.o"
 	@echo "... common_Clave.i"
 	@echo "... common_Clave.s"
@@ -429,6 +486,9 @@ help:
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"
+	@echo "... server_Indice.o"
+	@echo "... server_Indice.i"
+	@echo "... server_Indice.s"
 	@echo "... server_SktSv.o"
 	@echo "... server_SktSv.i"
 	@echo "... server_SktSv.s"

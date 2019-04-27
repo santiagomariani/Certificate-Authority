@@ -3,6 +3,8 @@
 
 CMakeFiles/tp3.dir/client.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client.cpp
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
 CMakeFiles/tp3.dir/client_InfoCertificado.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.cpp
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h
@@ -10,6 +12,9 @@ CMakeFiles/tp3.dir/client_SktCli.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+CMakeFiles/tp3.dir/common_Certificado.cpp.o
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.cpp
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
 CMakeFiles/tp3.dir/common_Clave.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.cpp
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
@@ -27,7 +32,12 @@ CMakeFiles/tp3.dir/common_Skt.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
 CMakeFiles/tp3.dir/server.cpp.o
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.h
+CMakeFiles/tp3.dir/server_Indice.cpp.o
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.cpp
+ /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h
 CMakeFiles/tp3.dir/server_SktSv.cpp.o
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
  /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp

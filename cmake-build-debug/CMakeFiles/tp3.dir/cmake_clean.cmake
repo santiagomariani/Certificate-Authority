@@ -9,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/tp3.dir/common_Skt.cpp.o"
   "CMakeFiles/tp3.dir/server_SktSv.cpp.o"
   "CMakeFiles/tp3.dir/server.cpp.o"
+  "CMakeFiles/tp3.dir/common_Certificado.cpp.o"
+  "CMakeFiles/tp3.dir/server_Indice.cpp.o"
   "tp3.pdb"
   "tp3"
 )

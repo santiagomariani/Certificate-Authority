@@ -1,0 +1,91 @@
+\documentclass[titlepage,a4paper]{article}
+
+\usepackage{a4wide}
+\usepackage[colorlinks=true,linkcolor=black,urlcolor=blue,bookmarksopen=true]{hyperref}
+\usepackage{bookmark}
+\usepackage{fancyvrb}
+\usepackage{fancyhdr}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{listings}
+
+
+\lstset{ %
+language=C++,           % choose the language of the code
+numbers=left,           % where to put the line-numbers
+numberstyle=\tiny,      % the size of the fonts that are used for the line-numbers
+basicstyle=\footnotesize    % the size of the fonts that are used for the line-numbers
+,breaklines=true,
+}
+
+
+%\marginsize{1cm}{1cm}{2cm}{2cm}
+
+\pagestyle{fancy} % Encabezado y pie de página
+\fancyhf{}
+\fancyhead[L]{TP3 - Santiago Mariani}
+\fancyhead[R]{Taller de programación I - FIUBA}
+\renewcommand{\headrulewidth}{0.4pt}
+\fancyfoot[C]{\thepage}
+\renewcommand{\footrulewidth}{0.4pt}
+\begin{document}
+\lstset{language=C} 
+\newpage
+
+\section{Clases}
+
+\subsection{Cliente}
+
+La clase cliente tiene la responsabilidad de verificar que los parámetros de la terminal sean correctos (cantidad de parámetros y modo de ejecución) y además es quien se comunica con el server para crear un certificado o para revocarlo.
+
+\subsection{InfoCertificado}
+
+Lee el archivo que tiene la información necesaria para crear el certificado, y permite obtener los distintos campos por separado. Eso es, subject, fecha inicial y fecha final. En caso de no haber una fecha final, esta se calcula a partir de la fecha inicial.
+
+\subsection{Certificado}
+
+Permite armar el certificado. Se pueden setear cada uno de los campos y luego obtener una cadena con el certificado completo. También es posible armar el certificado leyendo el archivo del certificado. Además permite guardar el certificado en un archivo.
+
+\subsection{Clave}
+
+Esta clase representa una clave, ya sea privada o publica. La misma se crea con un exponente (1 byte sin signo) y un modulo (2 bytes sin signo).
+
+\subsection{Encriptador}
+
+El encriptador usa el algoritmo RSA para encriptar y desencriptar. Se usa luego para encriptar con una clave publica o privada.
+
+\subsection{Hash}
+Función de hashing que aplica la sumatoria del valor ASCII de todos los caracteres que componen una cadena en un entero sin signo de 2 bytes.
+
+\subsection{InfoClave}
+
+Lee el archivo que tiene la información de la/las clave/claves del server/cliente. Luego es posible obtener dichas claves por separado.
+
+\subsection{Mensajero}
+
+Esta clase sabe como enviar cada tipo de dato. Se utiliza y sobrecarga el operador $>>$ y el operador $<<$.
+
+\subsection{Skt}
+
+Se hicieron algunos cambios con respecto a lo que habia hecho para el tp1. La clase socket es la que sabe como comunicarse, envia y lee mensajes. Permite ademas cerrar canal de escritura/lectura.
+
+\subsection{SktAceptador}
+
+El SktAceptador lo usa el server primero para escuchar a los clientes (clientes ya pueden quedar en lista de espera) y luego ya puede aceptar clientes. Al aceptar un cliente se obtiene un Skt con el cual nos vamos a poder comunicar con el cliente que corresponda. Para esto ultimo (devolver un Skt al aceptar un cliente) utilice move semantics.
+
+\subsection{Indice}
+
+Al crearse el objeto lee el archivo índice y guarda en memoria la información de todos los subjects y claves. Permite tener registro de los certificados, así como también agregar y borrar los mismos. Luego podemos pedirle que guarde el índice actualizado.
+
+\subsection{Server}
+
+Esta clase se encarga de validar los parámetros (cant. de parámetros) y de la comunicación con el cliente.
+
+\section{Aclaraciones}
+
+Debido a los cambios que tuve que hacer para el TP2, no pude llegar a terminar el TP3. Me falta la parte de threads, de la cual ya tengo una idea de como se podría llegar a hacer y pienso terminar en los próximos días.
+
+\end{document}

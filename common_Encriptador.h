@@ -4,13 +4,17 @@
 
 #include <cstdint>
 
+#include "common_Clave.h"
+
 #ifndef TP3_ENCRIPTADOR_H
 #define TP3_ENCRIPTADOR_H
 
-
+// El encriptador usa el algoritmo RSA para encriptar y desencriptar.
+// Se usa luego para encriptar con una clave publica o privada.
 class Encriptador {
     public:
-    uint32_t encriptar(uint16_t hash, uint8_t exp, uint16_t mod);
+    // Encripta con una clave dada.
+    uint32_t encriptar(uint32_t hash, Clave clave);
 };
 
 

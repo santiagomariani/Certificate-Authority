@@ -4,13 +4,11 @@
 
 #include "common_Clave.h"
 
+Clave::Clave() {
+    this->exp = 0;
+    this->mod = 0;
+}
+
 Clave::Clave(uint8_t exp, uint16_t mod) : exp(exp), mod(mod){
 }
 
-uint8_t Clave::obtenerExp() {
-    return this->exp;
-}
-
-uint16_t Clave::obtenerMod() {
-    return this->mod;
-}

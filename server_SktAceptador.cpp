@@ -11,23 +11,27 @@
 #include <netdb.h>
 #include <unistd.h>
 #include <cstring>
-
 #include <iostream>
+#include <string>
 
-#include "server_SktSv.h"
+#include "server_SktAceptador.h"
+#include "common_SocketError.h"
 #include "common_Skt.h"
 
 #define MAX_CLIENTES 10
 
-SktSv::SktSv(const char *port) {
-    size_t longitud = std::strlen(port);
-    this->port = (char*)malloc(longitud + 1);
-    memcpy(this->port, port, longitud + 1);
-    this->skt = -1;
-    this->skt_cliente = -1;
+SktAceptador::SktAceptador(std::string port) :
+    port(std::move(port)),
+    skt(-1) {
 }
 
-int SktSv::escucharClientes() {
+SktAceptador::SktAceptador(SktAceptador &&other) {
+    this->skt = other.skt;
+    this->port = std::move(other.port);
+    other.skt = -1;
+}
+
+int SktAceptador::escucharClientes() {
     struct addrinfo hints;
     struct addrinfo *ptr;
 
@@ -38,7 +42,7 @@ int SktSv::escucharClientes() {
     hints.ai_socktype = SOCK_STREAM;
     hints.ai_flags = AI_PASSIVE;
 
-    s = getaddrinfo(nullptr, this->port, &hints, &ptr);
+    s = getaddrinfo(nullptr, this->port.c_str(), &hints, &ptr);
 
     if (s != 0) {
         std::cout << "Error en getaddrinfo: "<< gai_strerror(s) << std::endl;
@@ -58,7 +62,7 @@ int SktSv::escucharClientes() {
     if (s == -1) {
         std::cout << "Error: "<< strerror(errno) << std::endl;
         freeaddrinfo(ptr);
-        Skt::cerrar_socket(skt);
+        close(skt);
         return 1;
     }
     s = bind(skt, ptr->ai_addr, ptr->ai_addrlen);
@@ -66,7 +70,7 @@ int SktSv::escucharClientes() {
     if (s == -1) {
         std::cout << "Error: "<< strerror(errno) << std::endl;
         freeaddrinfo(ptr);
-        Skt::cerrar_socket(skt);
+        close(skt);
         return 1;
     }
     freeaddrinfo(ptr);
@@ -74,51 +78,33 @@ int SktSv::escucharClientes() {
 
     if (s == -1) {
         std::cout << "Error: "<< strerror(errno) << std::endl;
-        Skt::cerrar_socket(skt);
+        close(skt);
         return 1;
     }
     this->skt = skt;
     return 0;
 }
 
-int SktSv::aceptarCliente() {
-    int skt_cliente;
-    skt_cliente = accept(this->skt, nullptr, nullptr);
-    if (skt_cliente == -1) {
-        std::cout << "Error: "<< strerror(errno) << std::endl;
-        return 1;
+Skt SktAceptador::aceptarCliente() {
+    int skt_cliente = accept(this->skt, nullptr, nullptr);
+    if (skt_cliente == -1){
+        throw SocketError("Error al aceptar cliente.");
     }
-    this->skt_cliente = skt_cliente;
-    return 0;
+    return std::move(Skt(skt_cliente));
 }
 
-void SktSv::despedirCliente() {
-    if (this->skt_cliente != -1) {
-        Skt::cerrar_socket(this->skt_cliente);
-        this->skt_cliente = -1;
-    }
+void SktAceptador::cerrarCanales() {
+    shutdown(this->skt, SHUT_RDWR);
 }
 
-int SktSv::enviar_mensaje(char *buffer, int longitud) {
-    return Skt::enviar_mensaje(this->skt_cliente, buffer, longitud);
+void SktAceptador::cerrarSocket() {
+    close(this->skt);
+    this->skt = -1;
 }
 
-int SktSv::leer_mensaje(char *buffer, int longitud) {
-    return Skt::leer_mensaje(this->skt_cliente, buffer, longitud);
-}
-
-void SktSv::cerrar_canal_escritura() {
-    Skt::cerrar_canal_escritura(this->skt_cliente);
-}
-
-SktSv::~SktSv() {
-    if (this->port != nullptr) {
-        free(this->port);
-    }
+SktAceptador::~SktAceptador() {
     if (this->skt != -1) {
-        cerrar_socket(this->skt);
-    }
-    if (this->skt_cliente != -1) {
-        cerrar_socket(this->skt_cliente);
+        shutdown(this->skt, SHUT_RDWR);
+        close(this->skt);
     }
 }

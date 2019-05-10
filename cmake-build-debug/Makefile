@@ -150,6 +150,33 @@ client.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client.cpp.s
 .PHONY : client.cpp.s
 
+client_Cliente.o: client_Cliente.cpp.o
+
+.PHONY : client_Cliente.o
+
+# target to build an object file
+client_Cliente.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_Cliente.cpp.o
+.PHONY : client_Cliente.cpp.o
+
+client_Cliente.i: client_Cliente.cpp.i
+
+.PHONY : client_Cliente.i
+
+# target to preprocess a source file
+client_Cliente.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_Cliente.cpp.i
+.PHONY : client_Cliente.cpp.i
+
+client_Cliente.s: client_Cliente.cpp.s
+
+.PHONY : client_Cliente.s
+
+# target to generate assembly for a file
+client_Cliente.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_Cliente.cpp.s
+.PHONY : client_Cliente.cpp.s
+
 client_InfoCertificado.o: client_InfoCertificado.cpp.o
 
 .PHONY : client_InfoCertificado.o
@@ -176,33 +203,6 @@ client_InfoCertificado.s: client_InfoCertificado.cpp.s
 client_InfoCertificado.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_InfoCertificado.cpp.s
 .PHONY : client_InfoCertificado.cpp.s
-
-client_SktCli.o: client_SktCli.cpp.o
-
-.PHONY : client_SktCli.o
-
-# target to build an object file
-client_SktCli.cpp.o:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_SktCli.cpp.o
-.PHONY : client_SktCli.cpp.o
-
-client_SktCli.i: client_SktCli.cpp.i
-
-.PHONY : client_SktCli.i
-
-# target to preprocess a source file
-client_SktCli.cpp.i:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_SktCli.cpp.i
-.PHONY : client_SktCli.cpp.i
-
-client_SktCli.s: client_SktCli.cpp.s
-
-.PHONY : client_SktCli.s
-
-# target to generate assembly for a file
-client_SktCli.cpp.s:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/client_SktCli.cpp.s
-.PHONY : client_SktCli.cpp.s
 
 common_Certificado.o: common_Certificado.cpp.o
 
@@ -339,6 +339,33 @@ common_InfoClave.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_InfoClave.cpp.s
 .PHONY : common_InfoClave.cpp.s
 
+common_Mensajero.o: common_Mensajero.cpp.o
+
+.PHONY : common_Mensajero.o
+
+# target to build an object file
+common_Mensajero.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Mensajero.cpp.o
+.PHONY : common_Mensajero.cpp.o
+
+common_Mensajero.i: common_Mensajero.cpp.i
+
+.PHONY : common_Mensajero.i
+
+# target to preprocess a source file
+common_Mensajero.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Mensajero.cpp.i
+.PHONY : common_Mensajero.cpp.i
+
+common_Mensajero.s: common_Mensajero.cpp.s
+
+.PHONY : common_Mensajero.s
+
+# target to generate assembly for a file
+common_Mensajero.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Mensajero.cpp.s
+.PHONY : common_Mensajero.cpp.s
+
 common_Skt.o: common_Skt.cpp.o
 
 .PHONY : common_Skt.o
@@ -365,6 +392,33 @@ common_Skt.s: common_Skt.cpp.s
 common_Skt.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_Skt.cpp.s
 .PHONY : common_Skt.cpp.s
+
+common_SocketError.o: common_SocketError.cpp.o
+
+.PHONY : common_SocketError.o
+
+# target to build an object file
+common_SocketError.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_SocketError.cpp.o
+.PHONY : common_SocketError.cpp.o
+
+common_SocketError.i: common_SocketError.cpp.i
+
+.PHONY : common_SocketError.i
+
+# target to preprocess a source file
+common_SocketError.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_SocketError.cpp.i
+.PHONY : common_SocketError.cpp.i
+
+common_SocketError.s: common_SocketError.cpp.s
+
+.PHONY : common_SocketError.s
+
+# target to generate assembly for a file
+common_SocketError.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/common_SocketError.cpp.s
+.PHONY : common_SocketError.cpp.s
 
 server.o: server.cpp.o
 
@@ -420,32 +474,140 @@ server_Indice.cpp.s:
 	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Indice.cpp.s
 .PHONY : server_Indice.cpp.s
 
-server_SktSv.o: server_SktSv.cpp.o
+server_Server.o: server_Server.cpp.o
 
-.PHONY : server_SktSv.o
+.PHONY : server_Server.o
 
 # target to build an object file
-server_SktSv.cpp.o:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktSv.cpp.o
-.PHONY : server_SktSv.cpp.o
+server_Server.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Server.cpp.o
+.PHONY : server_Server.cpp.o
 
-server_SktSv.i: server_SktSv.cpp.i
+server_Server.i: server_Server.cpp.i
 
-.PHONY : server_SktSv.i
+.PHONY : server_Server.i
 
 # target to preprocess a source file
-server_SktSv.cpp.i:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktSv.cpp.i
-.PHONY : server_SktSv.cpp.i
+server_Server.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Server.cpp.i
+.PHONY : server_Server.cpp.i
 
-server_SktSv.s: server_SktSv.cpp.s
+server_Server.s: server_Server.cpp.s
 
-.PHONY : server_SktSv.s
+.PHONY : server_Server.s
 
 # target to generate assembly for a file
-server_SktSv.cpp.s:
-	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktSv.cpp.s
-.PHONY : server_SktSv.cpp.s
+server_Server.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Server.cpp.s
+.PHONY : server_Server.cpp.s
+
+server_SktAceptador.o: server_SktAceptador.cpp.o
+
+.PHONY : server_SktAceptador.o
+
+# target to build an object file
+server_SktAceptador.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktAceptador.cpp.o
+.PHONY : server_SktAceptador.cpp.o
+
+server_SktAceptador.i: server_SktAceptador.cpp.i
+
+.PHONY : server_SktAceptador.i
+
+# target to preprocess a source file
+server_SktAceptador.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktAceptador.cpp.i
+.PHONY : server_SktAceptador.cpp.i
+
+server_SktAceptador.s: server_SktAceptador.cpp.s
+
+.PHONY : server_SktAceptador.s
+
+# target to generate assembly for a file
+server_SktAceptador.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_SktAceptador.cpp.s
+.PHONY : server_SktAceptador.cpp.s
+
+server_ThAceptador.o: server_ThAceptador.cpp.o
+
+.PHONY : server_ThAceptador.o
+
+# target to build an object file
+server_ThAceptador.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThAceptador.cpp.o
+.PHONY : server_ThAceptador.cpp.o
+
+server_ThAceptador.i: server_ThAceptador.cpp.i
+
+.PHONY : server_ThAceptador.i
+
+# target to preprocess a source file
+server_ThAceptador.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThAceptador.cpp.i
+.PHONY : server_ThAceptador.cpp.i
+
+server_ThAceptador.s: server_ThAceptador.cpp.s
+
+.PHONY : server_ThAceptador.s
+
+# target to generate assembly for a file
+server_ThAceptador.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThAceptador.cpp.s
+.PHONY : server_ThAceptador.cpp.s
+
+server_ThCliente.o: server_ThCliente.cpp.o
+
+.PHONY : server_ThCliente.o
+
+# target to build an object file
+server_ThCliente.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThCliente.cpp.o
+.PHONY : server_ThCliente.cpp.o
+
+server_ThCliente.i: server_ThCliente.cpp.i
+
+.PHONY : server_ThCliente.i
+
+# target to preprocess a source file
+server_ThCliente.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThCliente.cpp.i
+.PHONY : server_ThCliente.cpp.i
+
+server_ThCliente.s: server_ThCliente.cpp.s
+
+.PHONY : server_ThCliente.s
+
+# target to generate assembly for a file
+server_ThCliente.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_ThCliente.cpp.s
+.PHONY : server_ThCliente.cpp.s
+
+server_Thread.o: server_Thread.cpp.o
+
+.PHONY : server_Thread.o
+
+# target to build an object file
+server_Thread.cpp.o:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Thread.cpp.o
+.PHONY : server_Thread.cpp.o
+
+server_Thread.i: server_Thread.cpp.i
+
+.PHONY : server_Thread.i
+
+# target to preprocess a source file
+server_Thread.cpp.i:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Thread.cpp.i
+.PHONY : server_Thread.cpp.i
+
+server_Thread.s: server_Thread.cpp.s
+
+.PHONY : server_Thread.s
+
+# target to generate assembly for a file
+server_Thread.cpp.s:
+	$(MAKE) -f CMakeFiles/tp3.dir/build.make CMakeFiles/tp3.dir/server_Thread.cpp.s
+.PHONY : server_Thread.cpp.s
 
 # Help Target
 help:
@@ -459,12 +621,12 @@ help:
 	@echo "... client.o"
 	@echo "... client.i"
 	@echo "... client.s"
+	@echo "... client_Cliente.o"
+	@echo "... client_Cliente.i"
+	@echo "... client_Cliente.s"
 	@echo "... client_InfoCertificado.o"
 	@echo "... client_InfoCertificado.i"
 	@echo "... client_InfoCertificado.s"
-	@echo "... client_SktCli.o"
-	@echo "... client_SktCli.i"
-	@echo "... client_SktCli.s"
 	@echo "... common_Certificado.o"
 	@echo "... common_Certificado.i"
 	@echo "... common_Certificado.s"
@@ -480,18 +642,36 @@ help:
 	@echo "... common_InfoClave.o"
 	@echo "... common_InfoClave.i"
 	@echo "... common_InfoClave.s"
+	@echo "... common_Mensajero.o"
+	@echo "... common_Mensajero.i"
+	@echo "... common_Mensajero.s"
 	@echo "... common_Skt.o"
 	@echo "... common_Skt.i"
 	@echo "... common_Skt.s"
+	@echo "... common_SocketError.o"
+	@echo "... common_SocketError.i"
+	@echo "... common_SocketError.s"
 	@echo "... server.o"
 	@echo "... server.i"
 	@echo "... server.s"
 	@echo "... server_Indice.o"
 	@echo "... server_Indice.i"
 	@echo "... server_Indice.s"
-	@echo "... server_SktSv.o"
-	@echo "... server_SktSv.i"
-	@echo "... server_SktSv.s"
+	@echo "... server_Server.o"
+	@echo "... server_Server.i"
+	@echo "... server_Server.s"
+	@echo "... server_SktAceptador.o"
+	@echo "... server_SktAceptador.i"
+	@echo "... server_SktAceptador.s"
+	@echo "... server_ThAceptador.o"
+	@echo "... server_ThAceptador.i"
+	@echo "... server_ThAceptador.s"
+	@echo "... server_ThCliente.o"
+	@echo "... server_ThCliente.i"
+	@echo "... server_ThCliente.s"
+	@echo "... server_Thread.o"
+	@echo "... server_Thread.i"
+	@echo "... server_Thread.s"
 .PHONY : help
 
 

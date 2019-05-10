@@ -8,7 +8,7 @@
 
 uint16_t Hash::hashear(std::string &cadena) {
     uint16_t hash = 0;
-    std::string::iterator it = cadena.begin();
+    auto it = cadena.begin();
     for (; it != cadena.end(); ++it) {
         hash += *it;
     }

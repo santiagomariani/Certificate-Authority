@@ -8,14 +8,16 @@
 
 #include <cstdint>
 
-class Clave {
-    private:
+// Esta clase representa una clave, ya sea privada o publica.
+// La misma se crea con un exponente (1 byte sin signo) y
+// un modulo (2 bytes sin signo).
+struct Clave {
+    public:
     uint8_t exp;
     uint16_t mod;
-    public:
+    Clave();
     Clave(uint8_t exp, uint16_t mod);
-    uint8_t obtenerExp();
-    uint16_t obtenerMod();
+    ~Clave() = default;
 };
 
 

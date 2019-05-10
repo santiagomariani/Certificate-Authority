@@ -4,7 +4,10 @@
 
 #include "common_Encriptador.h"
 
-uint32_t Encriptador::encriptar(uint16_t hash, uint8_t exp, uint16_t mod) {
+uint32_t Encriptador::encriptar(uint32_t hash, Clave clave) {
+    uint8_t exp = clave.exp;
+    uint16_t mod = clave.mod;
+
     uint32_t ret = 0;
     for (unsigned int i = 0; i < 4; ++i) {
         uint32_t result = (hash >> (i * 8)) & 0xff;

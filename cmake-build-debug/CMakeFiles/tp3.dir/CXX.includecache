@@ -6,7 +6,53 @@
 
 #IncludeRegexTransform: 
 
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.cpp
+iostream
+-
+string
+-
+client_Cliente.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.h
+client_InfoCertificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+common_Clave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+common_InfoClave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+common_Mensajero.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h
+common_Encriptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+common_Certificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
+common_Hash.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.h
+string
+-
+vector
+-
+common_Mensajero.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h
+string
+-
+fstream
+-
+
 /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.cpp
+string
+-
+fstream
+-
+sstream
+-
+iomanip
+-
 common_Certificado.h
 /home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
 
@@ -14,5 +60,155 @@ common_Certificado.h
 stdint-gcc.h
 -
 string
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+cstdint
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+cstdint
+-
+common_Clave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.cpp
+string
+-
+common_Hash.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h
+string
+-
+cstdint
+-
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+iostream
+-
+fstream
+-
+string
+-
+common_Clave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h
+cstdint
+-
+string
+-
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+common_Certificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp
+sys/socket.h
+-
+netdb.h
+-
+unistd.h
+-
+cstring
+-
+cstdlib
+-
+string
+-
+iostream
+-
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+string
+-
+server_SktAceptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h
+string
+-
+map
+-
+fstream
+-
+mutex
+-
+common_Clave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Clave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.cpp
+string
+-
+server_Server.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.h
+server_Indice.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h
+common_Certificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
+common_Encriptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+common_Hash.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h
+common_InfoClave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+server_ThAceptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.h
+vector
+-
+string
+-
+common_Mensajero.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h
+server_Indice.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.h
+string
+-
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.h
+vector
+-
+server_SktAceptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.h
+server_ThCliente.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.h
+common_InfoClave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.cpp
+string
+-
+server_ThCliente.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.h
+common_Certificado.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.h
+common_Hash.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Hash.h
+common_Encriptador.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Encriptador.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.h
+server_Thread.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.h
+server_Indice.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h
+common_Skt.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h
+common_Mensajero.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h
+common_InfoClave.h
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h
+
+/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.h
+thread
 -
 

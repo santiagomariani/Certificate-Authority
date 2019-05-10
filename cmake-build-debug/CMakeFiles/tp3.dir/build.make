@@ -135,22 +135,9 @@ CMakeFiles/tp3.dir/common_InfoClave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/common_InfoClave.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.cpp" -o CMakeFiles/tp3.dir/common_InfoClave.cpp.s
 
-CMakeFiles/tp3.dir/client_SktCli.cpp.o: CMakeFiles/tp3.dir/flags.make
-CMakeFiles/tp3.dir/client_SktCli.cpp.o: ../client_SktCli.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tp3.dir/client_SktCli.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/client_SktCli.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp"
-
-CMakeFiles/tp3.dir/client_SktCli.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/client_SktCli.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp" > CMakeFiles/tp3.dir/client_SktCli.cpp.i
-
-CMakeFiles/tp3.dir/client_SktCli.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/client_SktCli.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp" -o CMakeFiles/tp3.dir/client_SktCli.cpp.s
-
 CMakeFiles/tp3.dir/common_Skt.cpp.o: CMakeFiles/tp3.dir/flags.make
 CMakeFiles/tp3.dir/common_Skt.cpp.o: ../common_Skt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tp3.dir/common_Skt.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/tp3.dir/common_Skt.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/common_Skt.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp"
 
 CMakeFiles/tp3.dir/common_Skt.cpp.i: cmake_force
@@ -161,22 +148,22 @@ CMakeFiles/tp3.dir/common_Skt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/common_Skt.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp" -o CMakeFiles/tp3.dir/common_Skt.cpp.s
 
-CMakeFiles/tp3.dir/server_SktSv.cpp.o: CMakeFiles/tp3.dir/flags.make
-CMakeFiles/tp3.dir/server_SktSv.cpp.o: ../server_SktSv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tp3.dir/server_SktSv.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_SktSv.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp"
+CMakeFiles/tp3.dir/server_SktAceptador.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/server_SktAceptador.cpp.o: ../server_SktAceptador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/tp3.dir/server_SktAceptador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_SktAceptador.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.cpp"
 
-CMakeFiles/tp3.dir/server_SktSv.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_SktSv.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp" > CMakeFiles/tp3.dir/server_SktSv.cpp.i
+CMakeFiles/tp3.dir/server_SktAceptador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_SktAceptador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.cpp" > CMakeFiles/tp3.dir/server_SktAceptador.cpp.i
 
-CMakeFiles/tp3.dir/server_SktSv.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_SktSv.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp" -o CMakeFiles/tp3.dir/server_SktSv.cpp.s
+CMakeFiles/tp3.dir/server_SktAceptador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_SktAceptador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.cpp" -o CMakeFiles/tp3.dir/server_SktAceptador.cpp.s
 
 CMakeFiles/tp3.dir/server.cpp.o: CMakeFiles/tp3.dir/flags.make
 CMakeFiles/tp3.dir/server.cpp.o: ../server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tp3.dir/server.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/tp3.dir/server.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp"
 
 CMakeFiles/tp3.dir/server.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/tp3.dir/server.cpp.s: cmake_force
 
 CMakeFiles/tp3.dir/common_Certificado.cpp.o: CMakeFiles/tp3.dir/flags.make
 CMakeFiles/tp3.dir/common_Certificado.cpp.o: ../common_Certificado.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tp3.dir/common_Certificado.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/tp3.dir/common_Certificado.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/common_Certificado.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.cpp"
 
 CMakeFiles/tp3.dir/common_Certificado.cpp.i: cmake_force
@@ -202,7 +189,7 @@ CMakeFiles/tp3.dir/common_Certificado.cpp.s: cmake_force
 
 CMakeFiles/tp3.dir/server_Indice.cpp.o: CMakeFiles/tp3.dir/flags.make
 CMakeFiles/tp3.dir/server_Indice.cpp.o: ../server_Indice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tp3.dir/server_Indice.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/tp3.dir/server_Indice.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_Indice.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.cpp"
 
 CMakeFiles/tp3.dir/server_Indice.cpp.i: cmake_force
@@ -213,6 +200,97 @@ CMakeFiles/tp3.dir/server_Indice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_Indice.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.cpp" -o CMakeFiles/tp3.dir/server_Indice.cpp.s
 
+CMakeFiles/tp3.dir/client_Cliente.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/client_Cliente.cpp.o: ../client_Cliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/tp3.dir/client_Cliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/client_Cliente.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.cpp"
+
+CMakeFiles/tp3.dir/client_Cliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/client_Cliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.cpp" > CMakeFiles/tp3.dir/client_Cliente.cpp.i
+
+CMakeFiles/tp3.dir/client_Cliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/client_Cliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.cpp" -o CMakeFiles/tp3.dir/client_Cliente.cpp.s
+
+CMakeFiles/tp3.dir/common_Mensajero.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/common_Mensajero.cpp.o: ../common_Mensajero.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/tp3.dir/common_Mensajero.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/common_Mensajero.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.cpp"
+
+CMakeFiles/tp3.dir/common_Mensajero.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/common_Mensajero.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.cpp" > CMakeFiles/tp3.dir/common_Mensajero.cpp.i
+
+CMakeFiles/tp3.dir/common_Mensajero.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/common_Mensajero.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.cpp" -o CMakeFiles/tp3.dir/common_Mensajero.cpp.s
+
+CMakeFiles/tp3.dir/server_Server.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/server_Server.cpp.o: ../server_Server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/tp3.dir/server_Server.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_Server.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.cpp"
+
+CMakeFiles/tp3.dir/server_Server.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_Server.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.cpp" > CMakeFiles/tp3.dir/server_Server.cpp.i
+
+CMakeFiles/tp3.dir/server_Server.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_Server.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.cpp" -o CMakeFiles/tp3.dir/server_Server.cpp.s
+
+CMakeFiles/tp3.dir/server_Thread.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/server_Thread.cpp.o: ../server_Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/tp3.dir/server_Thread.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_Thread.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.cpp"
+
+CMakeFiles/tp3.dir/server_Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_Thread.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.cpp" > CMakeFiles/tp3.dir/server_Thread.cpp.i
+
+CMakeFiles/tp3.dir/server_Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_Thread.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.cpp" -o CMakeFiles/tp3.dir/server_Thread.cpp.s
+
+CMakeFiles/tp3.dir/server_ThCliente.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/server_ThCliente.cpp.o: ../server_ThCliente.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/tp3.dir/server_ThCliente.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_ThCliente.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.cpp"
+
+CMakeFiles/tp3.dir/server_ThCliente.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_ThCliente.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.cpp" > CMakeFiles/tp3.dir/server_ThCliente.cpp.i
+
+CMakeFiles/tp3.dir/server_ThCliente.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_ThCliente.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.cpp" -o CMakeFiles/tp3.dir/server_ThCliente.cpp.s
+
+CMakeFiles/tp3.dir/server_ThAceptador.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/server_ThAceptador.cpp.o: ../server_ThAceptador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/tp3.dir/server_ThAceptador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/server_ThAceptador.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.cpp"
+
+CMakeFiles/tp3.dir/server_ThAceptador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/server_ThAceptador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.cpp" > CMakeFiles/tp3.dir/server_ThAceptador.cpp.i
+
+CMakeFiles/tp3.dir/server_ThAceptador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/server_ThAceptador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.cpp" -o CMakeFiles/tp3.dir/server_ThAceptador.cpp.s
+
+CMakeFiles/tp3.dir/common_SocketError.cpp.o: CMakeFiles/tp3.dir/flags.make
+CMakeFiles/tp3.dir/common_SocketError.cpp.o: ../common_SocketError.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/tp3.dir/common_SocketError.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tp3.dir/common_SocketError.cpp.o -c "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_SocketError.cpp"
+
+CMakeFiles/tp3.dir/common_SocketError.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tp3.dir/common_SocketError.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_SocketError.cpp" > CMakeFiles/tp3.dir/common_SocketError.cpp.i
+
+CMakeFiles/tp3.dir/common_SocketError.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tp3.dir/common_SocketError.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_SocketError.cpp" -o CMakeFiles/tp3.dir/common_SocketError.cpp.s
+
 # Object files for target tp3
 tp3_OBJECTS = \
 "CMakeFiles/tp3.dir/client.cpp.o" \
@@ -221,12 +299,18 @@ tp3_OBJECTS = \
 "CMakeFiles/tp3.dir/common_Clave.cpp.o" \
 "CMakeFiles/tp3.dir/client_InfoCertificado.cpp.o" \
 "CMakeFiles/tp3.dir/common_InfoClave.cpp.o" \
-"CMakeFiles/tp3.dir/client_SktCli.cpp.o" \
 "CMakeFiles/tp3.dir/common_Skt.cpp.o" \
-"CMakeFiles/tp3.dir/server_SktSv.cpp.o" \
+"CMakeFiles/tp3.dir/server_SktAceptador.cpp.o" \
 "CMakeFiles/tp3.dir/server.cpp.o" \
 "CMakeFiles/tp3.dir/common_Certificado.cpp.o" \
-"CMakeFiles/tp3.dir/server_Indice.cpp.o"
+"CMakeFiles/tp3.dir/server_Indice.cpp.o" \
+"CMakeFiles/tp3.dir/client_Cliente.cpp.o" \
+"CMakeFiles/tp3.dir/common_Mensajero.cpp.o" \
+"CMakeFiles/tp3.dir/server_Server.cpp.o" \
+"CMakeFiles/tp3.dir/server_Thread.cpp.o" \
+"CMakeFiles/tp3.dir/server_ThCliente.cpp.o" \
+"CMakeFiles/tp3.dir/server_ThAceptador.cpp.o" \
+"CMakeFiles/tp3.dir/common_SocketError.cpp.o"
 
 # External object files for target tp3
 tp3_EXTERNAL_OBJECTS =
@@ -237,15 +321,21 @@ tp3: CMakeFiles/tp3.dir/common_Encriptador.cpp.o
 tp3: CMakeFiles/tp3.dir/common_Clave.cpp.o
 tp3: CMakeFiles/tp3.dir/client_InfoCertificado.cpp.o
 tp3: CMakeFiles/tp3.dir/common_InfoClave.cpp.o
-tp3: CMakeFiles/tp3.dir/client_SktCli.cpp.o
 tp3: CMakeFiles/tp3.dir/common_Skt.cpp.o
-tp3: CMakeFiles/tp3.dir/server_SktSv.cpp.o
+tp3: CMakeFiles/tp3.dir/server_SktAceptador.cpp.o
 tp3: CMakeFiles/tp3.dir/server.cpp.o
 tp3: CMakeFiles/tp3.dir/common_Certificado.cpp.o
 tp3: CMakeFiles/tp3.dir/server_Indice.cpp.o
+tp3: CMakeFiles/tp3.dir/client_Cliente.cpp.o
+tp3: CMakeFiles/tp3.dir/common_Mensajero.cpp.o
+tp3: CMakeFiles/tp3.dir/server_Server.cpp.o
+tp3: CMakeFiles/tp3.dir/server_Thread.cpp.o
+tp3: CMakeFiles/tp3.dir/server_ThCliente.cpp.o
+tp3: CMakeFiles/tp3.dir/server_ThAceptador.cpp.o
+tp3: CMakeFiles/tp3.dir/common_SocketError.cpp.o
 tp3: CMakeFiles/tp3.dir/build.make
 tp3: CMakeFiles/tp3.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable tp3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable tp3"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tp3.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

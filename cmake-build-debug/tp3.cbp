@@ -87,16 +87,16 @@
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client.cpp">
 			<Option target="tp3"/>
 		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_Cliente.h">
+			<Option target="tp3"/>
+		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.cpp">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_InfoCertificado.h">
-			<Option target="tp3"/>
-		</Unit>
-		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.cpp">
-			<Option target="tp3"/>
-		</Unit>
-		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/client_SktCli.h">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Certificado.cpp">
@@ -129,10 +129,22 @@
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_InfoClave.h">
 			<Option target="tp3"/>
 		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Mensajero.h">
+			<Option target="tp3"/>
+		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.cpp">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_Skt.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_SocketError.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/common_SocketError.h">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server.cpp">
@@ -144,10 +156,34 @@
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Indice.h">
 			<Option target="tp3"/>
 		</Unit>
-		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.cpp">
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.cpp">
 			<Option target="tp3"/>
 		</Unit>
-		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktSv.h">
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Server.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_SktAceptador.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThAceptador.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_ThCliente.h">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.cpp">
+			<Option target="tp3"/>
+		</Unit>
+		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/server_Thread.h">
 			<Option target="tp3"/>
 		</Unit>
 		<Unit filename="/home/santi/Escritorio/Ingenieria/2019/1er cuat/Taller de programacion I/tps/tp3/CMakeLists.txt">

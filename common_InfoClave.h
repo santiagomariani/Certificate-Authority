@@ -11,6 +11,8 @@
 
 #include "common_Clave.h"
 
+// Lee el archivo que tiene la información de la/las clave/claves
+// del server/cliente. Luego es posible obtener dichas claves por separado.
 class InfoClave {
     private:
     std::ifstream archivo;
@@ -18,8 +20,11 @@ class InfoClave {
     Clave *clavePriv;
     public:
     explicit InfoClave(std::string &nombre);
+    // Obtiene la informacion del archivo.
     void obtenerInfo();
+    // Permite obtener la clave publica.
     Clave* obtenerClavePub();
+    // Permite obtener la clave privada.
     Clave* obtenerClavePriv();
     ~InfoClave();
 };
